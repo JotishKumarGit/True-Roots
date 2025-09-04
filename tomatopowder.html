@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Roots</title>
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      body {
+        background: #f8f9fa;
+      }
+
+      .product-section {
+        padding: 80px 20px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+      }
+
+      .product-image,
+      .product-content {
+        flex: 1 1 300px;
+      }
+
+      .product-image img {
+        width: 100%;
+        max-width: 420px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+      .product-image img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+      }
+
+      .product-content {
+        background: #fff;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+      }
+
+      .product-content:hover {
+        transform: translateY(-6px);
+      }
+
+      .product-content h2 {
+        color: #a52a2a;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .product-content p {
+        font-size: 17px;
+        line-height: 1.7;
+        color: #555;
+        margin-bottom: 25px;
+      }
+
+      .product-content ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+
+      .product-content ul li {
+        margin-bottom: 12px;
+        font-size: 16px;
+        color: #333;
+      }
+
+      .enquiry-btn {
+        display: inline-block;
+        padding: 14px 32px;
+        background: linear-gradient(135deg, #a52a2a, #7a1f1f);
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 30px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+      }
+
+      .enquiry-btn:hover {
+        background: linear-gradient(135deg, #7a1f1f, #5a1414);
+        transform: translateY(-3px);
+      }
+
+      /* Tablet */
+      @media (max-width: 992px) {
+        .product-content h2 {
+          font-size: 28px;
+          text-align: center;
+        }
+
+        .product-content p,
+        .product-content ul li {
+          font-size: 16px;
+          text-align: center;
+        }
+
+        .enquiry-btn {
+          display: block;
+          margin: 20px auto 0;
+        }
+      }
+
+      /* Mobile */
+      @media (max-width: 480px) {
+        .product-section {
+          padding: 60px 15px;
+        }
+
+        .product-content h2 {
+          font-size: 24px;
+        }
+
+        .product-content p,
+        .product-content ul li {
+          font-size: 14px;
+        }
+
+        .enquiry-btn {
+          padding: 12px 25px;
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <div
+      class="container-fluid page-header mb-5 py-5"
+      style="
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url(img/beetrootpowder.jpg) center center no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">
+          Tomato Powder
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Pages</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Tomato Powder
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!--header end-->
+
+    <!--product-->
+    <!-- Product Section -->
+    <section class="product-section">
+      <div class="product-container">
+        <!-- Image Section -->
+        <div class="product-image">
+          <img src="img/tomatopowder.jpg" alt="Tomato Powder" />
+        </div>
+
+        <!-- Content Section -->
+        <div class="product-content">
+          <h2>Tomato Powder</h2>
+          <p>
+            Our premium quality <b>Tomato Powder</b> is made from farm-fresh
+            tomatoes, carefully dried and ground to preserve their natural
+            color, taste, and nutrients. It is a convenient and healthy
+            alternative to fresh tomatoes, adding rich flavor and vibrant color
+            to soups, sauces, gravies, and snacks.
+          </p>
+
+          <ul>
+            <li>✅ 100% natural and preservative-free</li>
+            <li>✅ Rich in vitamins A & C and antioxidants</li>
+            <li>✅ Enhances taste and color in cooking</li>
+            <li>✅ Long shelf life and easy to store</li>
+            <li>✅ Perfect for soups, curries, sauces & snacks</li>
+          </ul>
+
+          <a href="contact.html" class="enquiry-btn">Enquiry Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--product end-->
+  </body>
+</html>
